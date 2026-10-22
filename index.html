@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonali Jadhav | Individual Clinical Psychology Practice | Ulhasnagar</title>
+    <meta name="description" content="Award-standard psychological care, child assessment, ADHD & Autism evaluation, learning disability testing, counselling & behaviour therapy by Sonali Jadhav (MA Clinical Psychologist / Counsellor, PGCCC, MIMH) in Ulhasnagar 4.">
+    <meta name="keywords" content="Sonali Jadhav, Clinical Psychologist Ulhasnagar, Child Assessment Ulhasnagar, ADHD Autism evaluation, Learning Disability Assessment, Behaviour Therapy, Counselling Maharashtra">
+    <meta name="theme-color" content="#0d3d36">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sonali Jadhav | Individual Clinical Psychology Practice">
+    <meta property="og:description" content="Understand • Support • Empower. Compassionate, evidence-guided psychological assessments and specialized child support in Ulhasnagar 4.">
+    <meta property="og:image" content="sonali-jadhav.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        hand: ['"Caveat"', 'cursive'],
+                        devanagari: ['"Noto Sans Devanagari"', 'sans-serif'],
+                    },
+                    colors: {
+                        forest: {
+                            50: '#f0f7f4',
+                            100: '#e0efe9',
+                            200: '#c2dfd4',
+                            300: '#96c7b7',
+                            400: '#64a996',
+                            500: '#3e8c79',
+                            600: '#2c6f60',
+                            700: '#23584d',
+                            800: '#1b473f',
+                            850: '#123932',
+                            900: '#0d322c',
+                            950: '#071f1b',
+                        },
+                        sage: {
+                            50: '#f8faf9',
+                            100: '#f0f5f2',
+                            200: '#dee9e3',
+                            300: '#c3d6cd',
+                            400: '#a1bfb2',
+                            500: '#7fa696',
+                        },
+                        mint: {
+                            50: '#f2f9f6',
+                            100: '#e3f3ec',
+                            200: '#c5e7d9',
+                            300: '#98d4bf',
+                            400: '#64bba0',
+                            500: '#3da184',
+                            600: '#2c8269',
+                        },
+                        accent: {
+                            gold: '#c59b27',
+                            rose: '#df5879',
+                            purple: '#6d57e2',
+                            blue: '#2d84de',
+                            amber: '#df7928',
+                            teal: '#1fa074'
+                        }
+                    },
+                    boxShadow: {
+                        'glow': '0 0 40px -10px rgba(44, 130, 105, 0.25)',
+                        'card': '0 12px 35px -4px rgba(13, 50, 44, 0.06)',
+                        'card-hover': '0 20px 45px -8px rgba(13, 50, 44, 0.12)',
+                        'floating': '0 24px 50px -12px rgba(13, 50, 44, 0.25)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Pro-level polish, animations, and glass effects */
+        ::selection {
+            background-color: #c5e7d9;
+            color: #071f1b;
+        }
+
+        .hero-mesh {
+            background: 
+                radial-gradient(at 0% 0%, rgba(227, 243, 236, 0.8) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(240, 247, 244, 0.7) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(242, 249, 246, 0.9) 0px, transparent 55%),
+                #ffffff;
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .shimmer-btn {
+            position: relative;
+            overflow: hidden;
+        }
+        .shimmer-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(60deg, transparent 35%, rgba(255,255,255,0.28) 50%, transparent 65%);
+            transform: rotate(30deg);
+            transition: all 0.75s ease;
+        }
+        .shimmer-btn:hover::after {
+            left: 100%;
+            top: 100%;
+        }
+
+        .service-card {
+            transition: all 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 22px 42px -8px rgba(13, 50, 44, 0.12);
+            border-color: #98d4bf;
+        }
+        .service-card:hover .arrow-circle {
+            background-color: #0d322c;
+            color: #ffffff;
+            transform: translateX(4px) rotate(-45deg);
+        }
+        .service-card:hover .service-badge {
+            transform: scale(1.08) rotate(3deg);
+        }
+
+        /* Handwritten script accents */
+        .callout-script {
+            font-family: 'Caveat', cursive;
+            line-height: 1.15;
+            letter-spacing: 0.3px;
+        }
+
+        /* Pulse glow animation for online indicator and WhatsApp */
+        .online-dot {
+            box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+            animation: pulse-green 2s infinite;
+        }
+        @keyframes pulse-green {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+
+        .fab-pulse {
+            animation: float-pulse 3s ease-in-out infinite;
+        }
+        @keyframes float-pulse {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* Active Language Pill styles */
+        .lang-active {
+            background-color: #0d322c !important;
+            color: #ffffff !important;
+            box-shadow: 0 2px 6px rgba(13, 50, 44, 0.25);
+        }
+        .lang-inactive {
+            background-color: transparent !important;
+            color: #1b473f !important;
+        }
+        .footer-lang-active {
+            background-color: #ffffff !important;
+            color: #071f1b !important;
+        }
+        .footer-lang-inactive {
+            background-color: rgba(255, 255, 255, 0.12) !important;
+            color: #c2dfd4 !important;
+        }
+    </style>
+
+    <!-- Schema.org Medical Practice SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Sonali Jadhav - Individual Clinical Psychology Practice",
+      "image": "sonali-jadhav.jpg",
+      "telephone": "+919370201194",
+      "email": "jsonali338@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Chatrapati Shivaji Nagar, Maratha Section 32",
+        "addressLocality": "Ulhasnagar 4",
+        "addressRegion": "Maharashtra",
+        "postalCode": "421004",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "medicalSpecialty": ["Psychology", "Clinical", "Child Development", "Learning Disability"],
+      "description": "Professional psychological assessments, child assessment, ADHD & Autism evaluation, learning disability tests, counselling, and behaviour therapy."
+    }
+    </script>
+</head>
+<body class="font-sans text-slate-700 bg-white antialiased selection:bg-mint-200 selection:text-forest-950">
+
+    <!-- Top Status Bar (Pro Level Touch) -->
+    <div class="bg-forest-950 text-white text-[11px] sm:text-xs py-2 px-4 border-b border-forest-800">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+            <div class="flex items-center gap-3.5 flex-wrap justify-center sm:justify-start">
+                <span class="inline-flex items-center gap-1.5 text-mint-300 font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 online-dot"></span>
+                    <span data-en="Clinic Open Today: 10:00 AM – 6:00 PM" data-mr="क्लिनिक सुरू आहे: सकाळी १०:०० ते संध्याकाळी ६:००">Clinic Open Today: 10:00 AM – 6:00 PM</span>
+                </span>
+                <span class="hidden md:inline-block text-forest-700">•</span>
+                <span class="hidden md:inline-flex items-center gap-1.5 text-slate-300">
+                    <i class="fa-solid fa-location-dot text-mint-400 text-[10px]"></i>
+                    <span data-en="Chatrapati Shivaji Nagar, Ulhasnagar 4" data-mr="छत्रपती शिवाजी नगर, उल्हासनगर ४">Chatrapati Shivaji Nagar, Ulhasnagar 4</span>
+                </span>
+                <span class="hidden md:inline-block text-forest-700">•</span>
+                <span class="bg-forest-850 text-mint-200 px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider uppercase border border-forest-700">
+                    <span data-en="Strictly Confidential" data-mr="पूर्णपणे गोपनीय">Strictly Confidential</span>
+                </span>
+            </div>
+
+            <div class="flex items-center gap-4 font-medium">
+                <a href="tel:9370201194" class="hover:text-mint-300 transition-colors inline-flex items-center gap-1.5 text-white">
+                    <i class="fa-solid fa-phone text-emerald-400 text-[11px]"></i>
+                    <span>+91 9370201194</span>
+                </a>
+                <span class="text-forest-700">|</span>
+                <a href="https://wa.me/919370201194?text=Hello%20Ms.%20Sonali%20Jadhav,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" class="text-emerald-400 hover:text-emerald-300 inline-flex items-center gap-1 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span data-en="Chat on WhatsApp" data-mr="व्हॉट्सॲप">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-50 glass-nav border-b border-sage-200/80 shadow-xs transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo & Brand Header -->
+                <a href="#home" class="flex items-center gap-3.5 group focus:outline-none">
+                    <div class="w-11 h-11 rounded-full border border-forest-600/30 flex items-center justify-center text-forest-700 bg-forest-50 group-hover:scale-105 group-hover:bg-forest-100 transition-all duration-300 shadow-xs">
+                        <i class="fa-solid fa-brain text-xl text-forest-700"></i>
+                    </div>
+                    <div>
+                        <div class="font-serif font-bold text-xl sm:text-2xl text-forest-950 tracking-tight leading-tight group-hover:text-forest-700 transition-colors">
+                            <span data-en="Sonali Jadhav" data-mr="सोनाली जाधव">Sonali Jadhav</span>
+                        </div>
+                        <div class="text-[11px] font-medium text-slate-500 tracking-wide flex items-center gap-1.5">
+                            <span data-en="Individual Clinical Psychology Practice" data-mr="व्यक्तिगत क्लिनिकल सायकॉलॉजी प्रॅक्टिस">Individual Clinical Psychology Practice</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-7 text-xs sm:text-sm font-semibold text-slate-600">
+                    <a href="#home" class="text-forest-900 hover:text-forest-700 transition-colors relative py-1" data-en="Home" data-mr="होम">Home</a>
+                    <a href="#about" class="hover:text-forest-700 transition-colors py-1" data-en="About" data-mr="परिचय">About</a>
+                    <a href="#services" class="hover:text-forest-700 transition-colors py-1" data-en="Services" data-mr="सेवा">Services</a>
+                    <a href="#inside" class="hover:text-forest-700 transition-colors py-1" data-en="Inside the Practice" data-mr="प्रॅक्टिसची झलक">Inside the Practice</a>
+                    <a href="#faqs" class="hover:text-forest-700 transition-colors py-1" data-en="FAQs" data-mr="प्रश्नोत्तरे">FAQs</a>
+                    <a href="#contact" class="hover:text-forest-700 transition-colors py-1" data-en="Contact" data-mr="संपर्क">Contact</a>
+                </nav>
+
+                <!-- Actions: Language Switcher & Quick Booking CTA -->
+                <div class="flex items-center gap-3">
+                    
+                    <!-- Language Switcher Pill (EN | मराठी) -->
+                    <div class="flex items-center bg-forest-50/80 border border-forest-200/90 rounded-full p-0.5 text-xs font-semibold shadow-xs">
+                        <button onclick="setLanguage('en')" id="lang-btn-en" class="px-3 py-1 rounded-full transition-all lang-active">
+                            EN
+                        </button>
+                        <button onclick="setLanguage('mr')" id="lang-btn-mr" class="px-3 py-1 rounded-full transition-all lang-inactive">
+                            मराठी
+                        </button>
+                    </div>
+
+                    <!-- Desktop Header CTA button -->
+                    <button onclick="openBookingWizard()" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-semibold text-xs shadow-sm transition-all transform hover:-translate-y-0.5 shimmer-btn">
+                        <i class="fa-regular fa-calendar-check text-mint-300"></i>
+                        <span data-en="Book Appointment" data-mr="अपॉइंटमेंट">Book Appointment</span>
+                    </button>
+
+                    <!-- Mobile Drawer Toggle -->
+                    <button id="mobileMenuBtn" type="button" class="lg:hidden p-2 rounded-xl text-forest-900 hover:bg-forest-50 transition-colors" aria-label="Toggle navigation">
+                        <i id="mobileMenuIcon" class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileDrawer" class="hidden lg:hidden bg-white/98 border-t border-sage-200 px-5 pt-3 pb-6 space-y-3 shadow-xl backdrop-blur-md">
+            <a href="#home" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="Home" data-mr="होम">Home</a>
+            <a href="#about" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="About" data-mr="परिचय">About</a>
+            <a href="#services" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="Services" data-mr="सेवा">Services</a>
+            <a href="#inside" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="Inside the Practice" data-mr="प्रॅक्टिसची झलक">Inside the Practice</a>
+            <a href="#faqs" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="FAQs" data-mr="प्रश्नोत्तरे">FAQs</a>
+            <a href="#contact" class="block py-2 text-sm font-semibold text-slate-800 hover:text-forest-700 border-b border-slate-100" data-en="Contact" data-mr="संपर्क">Contact</a>
+            
+            <div class="pt-3 flex flex-col gap-2.5">
+                <button onclick="openBookingWizard()" class="w-full text-center py-3 rounded-xl bg-forest-850 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-sm">
+                    <i class="fa-regular fa-calendar-check text-mint-300"></i>
+                    <span data-en="Schedule Appointment" data-mr="अपॉइंटमेंट निश्चित करा">Schedule Appointment</span>
+                </button>
+                <a href="https://wa.me/919370201194?text=Hello%20Ms.%20Sonali%20Jadhav,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." target="_blank" class="w-full text-center py-3 rounded-xl bg-emerald-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span data-en="WhatsApp Us Directly" data-mr="व्हॉट्सॲपवर संपर्क करा">WhatsApp Us Directly</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Pro-Level Layout & Aesthetic) -->
+    <section id="home" class="relative overflow-hidden hero-mesh pt-8 pb-16 lg:py-20 border-b border-sage-200/70">
+        
+        <!-- Decorative Ambient Vector Elements -->
+        <div class="absolute -top-16 -left-16 w-80 h-80 bg-mint-100/40 rounded-full filter blur-3xl pointer-events-none -z-0"></div>
+        <div class="absolute top-1/2 right-0 w-96 h-96 bg-forest-100/30 rounded-full filter blur-3xl pointer-events-none -z-0"></div>
+
+        <!-- Decorative Botanical Doodle Top-Right -->
+        <div class="absolute top-4 right-4 sm:top-8 sm:right-10 w-20 sm:w-28 opacity-30 pointer-events-none select-none">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 10C35 30 20 50 30 75C40 100 70 85 80 65C90 45 65 30 50 10Z" fill="#3da184" opacity="0.35"/>
+                <path d="M45 15C32 32 20 48 28 70C36 92 62 80 72 60C82 40 58 28 45 15Z" stroke="#1b473f" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M35 50C42 46 55 45 65 52" stroke="#1b473f" stroke-width="1.4"/>
+                <path d="M38 65C45 62 55 63 60 70" stroke="#1b473f" stroke-width="1.4"/>
+            </svg>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Hero Content Column -->
+                <div class="lg:col-span-7 space-y-5 text-left">
+                    
+                    <!-- Motto Tag -->
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-mint-50 border border-mint-200/80 text-forest-700 text-xs sm:text-sm font-semibold tracking-wide shadow-2xs">
+                        <span class="w-2 h-2 rounded-full bg-forest-600"></span>
+                        <span data-en="Understand  •  Support  •  Empower" data-mr="समजून घेणे  •  आधार देणे  •  सक्षम करणे">Understand  •  Support  •  Empower</span>
+                    </div>
+
+                    <!-- Main Name Heading -->
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-forest-950 tracking-tight leading-[1.12]">
+                        <span data-en="Sonali Jadhav" data-mr="सोनाली जाधव">Sonali Jadhav</span>
+                    </h1>
+
+                    <!-- Professional Designation -->
+                    <div class="flex items-center gap-2 flex-wrap">
+                        <span class="text-base sm:text-lg font-semibold text-forest-800" data-en="MA Clinical Psychologist / Counsellor" data-mr="एम.ए. क्लिनिकल सायकॉलॉजिस्ट / समुपदेशक">
+                            MA Clinical Psychologist / Counsellor
+                        </span>
+                        <span class="text-xs bg-forest-100 text-forest-800 px-2.5 py-0.5 rounded-md font-semibold border border-forest-200">
+                            PGCCC • MIMH
+                        </span>
+                    </div>
+
+                    <!-- Practice Badge Pill matching design -->
+                    <div>
+                        <span class="inline-block px-4 py-1.5 rounded-xl bg-forest-850 text-white text-xs sm:text-sm font-semibold shadow-xs">
+                            <span data-en="Individual Clinical Psychology Practice" data-mr="व्यक्तिगत क्लिनिकल सायकॉलॉजी प्रॅक्टिस">Individual Clinical Psychology Practice</span>
+                        </span>
+                    </div>
+
+                    <!-- Key Focus Areas Line -->
+                    <p class="text-xs sm:text-sm font-bold text-forest-900 tracking-normal pt-1">
+                        <span data-en="Psychological Assessment | Child Assessment | Counselling | Behaviour Therapy" 
+                              data-mr="मानसशास्त्रीय मूल्यमापन | बाल मूल्यमापन | समुपदेशन | वर्तन उपचार">
+                            Psychological Assessment | Child Assessment | Counselling | Behaviour Therapy
+                        </span>
+                    </p>
+
+                    <!-- Practice Introduction -->
+                    <p class="text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl">
+                        <span data-en="Providing professional psychological assessment and support for children and individuals, with services tailored to the concerns and needs presented."
+                              data-mr="मुले आणि व्यक्तींसाठी व्यावसायिक मानसशास्त्रीय मूल्यमापन आणि समर्पित समुपदेशन सहाय्य प्रदान करणे, जे प्रत्येक व्यक्तीच्या गरजेनुसार तयार केले जाते.">
+                            Providing professional psychological assessment and support for children and individuals, with services tailored to the concerns and needs presented.
+                        </span>
+                    </p>
+
+                    <!-- CTA Buttons Row -->
+                    <div class="flex flex-wrap items-center gap-3.5 pt-2">
+                        <button onclick="openBookingWizard()" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-forest-850 hover:bg-forest-900 active:scale-95 text-white font-bold text-xs sm:text-sm shadow-card hover:shadow-card-hover transition-all shimmer-btn">
+                            <i class="fa-regular fa-calendar-check text-mint-300"></i>
+                            <span data-en="Book an Appointment" data-mr="अपॉइंटमेंट बुक करा">Book an Appointment</span>
+                        </button>
+
+                        <a href="https://wa.me/919370201194?text=Hello%20Ms.%20Sonali%20Jadhav,%20I%20would%20like%20to%20enquire%20about%20booking%20an%20appointment." 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-white hover:bg-forest-50 border border-forest-600/30 text-forest-900 font-bold text-xs sm:text-sm transition-all shadow-xs hover:border-forest-600">
+                            <i class="fa-brands fa-whatsapp text-emerald-600 text-base"></i>
+                            <span data-en="WhatsApp Us" data-mr="व्हॉट्सॲप मेसेज">WhatsApp Us</span>
+                        </a>
+                    </div>
+
+                    <!-- Location Tag -->
+                    <div class="pt-2 flex items-center gap-2 text-xs sm:text-sm text-slate-600 font-medium">
+                        <i class="fa-solid fa-location-dot text-forest-700"></i>
+                        <span data-en="Ulhasnagar 4, Maharashtra, India" data-mr="उल्हासनगर ४, महाराष्ट्र, भारत">Ulhasnagar 4, Maharashtra, India</span>
+                        <span class="text-slate-300">•</span>
+                        <a href="#contact" class="text-forest-700 underline hover:text-forest-900 font-semibold" data-en="View Map & Directions" data-mr="नकाशा व दिशा पहा">View Map & Directions</a>
+                    </div>
+
+                </div>
+
+                <!-- Right Hero Image with Script Annotation -->
+                <div class="lg:col-span-5 relative flex justify-center lg:justify-end">
+                    <div class="relative w-full max-w-sm sm:max-w-md">
+                        
+                        <!-- Handwritten script quote overlaid on top right matching design -->
+                        <div class="absolute -top-4 sm:-top-6 -right-2 sm:-right-4 z-20 text-forest-900 select-none pointer-events-none transform rotate-3">
+                            <div class="callout-script text-xl sm:text-2xl font-bold leading-tight drop-shadow-xs bg-white/75 backdrop-blur-xs px-3 py-1 rounded-xl border border-forest-100">
+                                Better Mental Health<br>
+                                Brighter Futures<br>
+                                <span class="text-2xl block text-center text-rose-500">♡</span>
+                            </div>
+                        </div>
+
+                        <!-- Portrait Image Container with Pro-level soft frame & glow -->
+                        <div class="relative rounded-3xl overflow-hidden shadow-floating border-4 border-white bg-white group">
+                            <img src="sonali-jadhav.jpg" alt="Sonali Jadhav - MA Clinical Psychologist" class="w-full h-[410px] sm:h-[450px] object-cover object-top transition-transform duration-700 group-hover:scale-102">
+                            
+                            <!-- Bottom floating subtle badge -->
+                            <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md px-3.5 py-2.5 rounded-2xl shadow-md border border-forest-100 flex items-center justify-between">
+                                <div class="flex items-center gap-2.5">
+                                    <div class="w-8 h-8 rounded-full bg-forest-100 text-forest-800 flex items-center justify-center text-xs font-bold">
+                                        <i class="fa-solid fa-user-check"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Clinical Scope</div>
+                                        <div class="text-xs font-bold text-forest-950">Child & Adult Mental Health</div>
+                                    </div>
+                                </div>
+                                <span class="text-[11px] font-bold text-forest-700 bg-forest-50 px-2.5 py-1 rounded-lg">
+                                    1-on-1 Sessions
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Stats Bar (Pro Level) -->
+    <section class="py-6 bg-forest-50/70 border-b border-sage-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center">
+                <div class="p-2">
+                    <div class="text-xl sm:text-2xl font-serif font-bold text-forest-950">100%</div>
+                    <div class="text-xs text-slate-600 font-medium mt-0.5" data-en="Confidential & Private" data-mr="पूर्णपणे गोपनीय व सुरक्षित">Confidential & Private</div>
+                </div>
+                <div class="p-2 border-l border-sage-200">
+                    <div class="text-xl sm:text-2xl font-serif font-bold text-forest-950">Standardized</div>
+                    <div class="text-xs text-slate-600 font-medium mt-0.5" data-en="Diagnostic Assessments" data-mr="प्रमाणित मानसशास्त्रीय चाचण्या">Diagnostic Assessments</div>
+                </div>
+                <div class="p-2 border-l border-sage-200">
+                    <div class="text-xl sm:text-2xl font-serif font-bold text-forest-950">Child-Friendly</div>
+                    <div class="text-xs text-slate-600 font-medium mt-0.5" data-en="Warm, Stress-Free Setup" data-mr="मुलांसाठी अनुकूल वातावरण">Warm, Stress-Free Setup</div>
+                </div>
+                <div class="p-2 border-l border-sage-200">
+                    <div class="text-xl sm:text-2xl font-serif font-bold text-forest-950">Tailored</div>
+                    <div class="text-xs text-slate-600 font-medium mt-0.5" data-en="Intervention & Guidance" data-mr="वैयक्तिक उपचार व मार्गदर्शन">Intervention & Guidance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="py-16 lg:py-24 bg-white relative">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header with Refined Dividing Lines -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <div class="flex items-center justify-center gap-4 text-forest-700 mb-2">
+                    <span class="w-12 h-[1px] bg-forest-400/60 inline-block"></span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest-950 tracking-tight" data-en="Our Services" data-mr="आमच्या सेवा">
+                        Our Services
+                    </h2>
+                    <span class="w-12 h-[1px] bg-forest-400/60 inline-block"></span>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto" data-en="Comprehensive psychological support for children, adolescents and adults." data-mr="मुले, किशोरवयीन आणि प्रौढांसाठी सर्वसमावेशक मानसशास्त्रीय सहाय्य.">
+                    Comprehensive psychological support for children, adolescents and adults.
+                </p>
+            </div>
+
+            <!-- 6 Services Grid matching the exact mockup icons & colors -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
+                
+                <!-- Service 1: Psychological Assessment -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('psychological')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel green bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#e8f7ee] text-[#208b5e] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="Psychological Assessment" data-mr="मानसशास्त्रीय मूल्यमापन">
+                                    Psychological Assessment
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Understanding cognitive, emotional, behavioural and functional concerns." data-mr="संज्ञानात्मक, भावनिक, वर्तनात्मक आणि कार्यात्मक अडचणींचे सखोल विश्लेषण.">
+                            Understanding cognitive, emotional, behavioural and functional concerns.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2: Child Assessment -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('child')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel lavender bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#f1effd] text-[#6754de] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-regular fa-face-smile"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="Child Assessment" data-mr="बाल मूल्यमापन">
+                                    Child Assessment
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Assessment of developmental, behavioural, emotional and learning-related concerns in children." data-mr="मुलांमधील विकासात्मक, वर्तनात्मक, भावनिक आणि अभ्यासाशी संबंधित अडचणींचे मूल्यमापन.">
+                            Assessment of developmental, behavioural, emotional and learning-related concerns in children.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3: Learning Disability Assessment -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('ld')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel peach bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#fef0e6] text-[#de742e] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="Learning Disability Assessment" data-mr="अध्ययन अक्षमता मूल्यमापन">
+                                    Learning Disability Assessment
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Assessment of learning-related difficulties, where indicated, using appropriate procedures." data-mr="योग्य प्रक्रियेचा वापर करून वाचन, लेखन आणि समज यांसारख्या शैक्षणिक अडचणींचे मूल्यमापन.">
+                            Assessment of learning-related difficulties, where indicated, using appropriate procedures.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4: ADHD and Autism Assessment -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('adhd_autism')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel sky blue bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#e9f4ff] text-[#2881dc] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-solid fa-puzzle-piece"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="ADHD and Autism Assessment" data-mr="एडीएचडी आणि ऑटिझम मूल्यमापन">
+                                    ADHD and Autism Assessment
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Assessment of attention, activity levels, social communication and developmental functioning." data-mr="एकाग्रता, अतिसक्रियता, सामाजिक संवाद आणि विकासात्मक कार्यांचे विशेष मूल्यमापन.">
+                            Assessment of attention, activity levels, social communication and developmental functioning.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5: Counselling -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('counselling')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel rose pink bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#feeef3] text-[#d93b6e] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="Counselling" data-mr="समुपदेशन">
+                                    Counselling
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Psychological support for emotional, behavioural and adjustment-related concerns." data-mr="भावनिक तणाव, वर्तनात्मक आव्हाने आणि जीवनातील बदलांसाठी समुपदेशन सहाय्य.">
+                            Psychological support for emotional, behavioural and adjustment-related concerns.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6: Behaviour Therapy -->
+                <div class="service-card bg-white rounded-2xl p-6 sm:p-7 border border-sage-200/90 shadow-card flex flex-col justify-between relative group cursor-pointer" onclick="openServiceDetail('behaviour')">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <!-- Circular Icon with pastel mint green bg -->
+                            <div class="service-badge w-14 h-14 rounded-full bg-[#e8f8f2] text-[#1b9a70] flex items-center justify-center text-2xl flex-shrink-0 transition-transform duration-300">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
+                            <div class="pr-2 pt-1">
+                                <h3 class="font-sans font-bold text-slate-900 text-base leading-snug group-hover:text-forest-800 transition-colors" data-en="Behaviour Therapy" data-mr="वर्तन उपचार">
+                                    Behaviour Therapy
+                                </h3>
+                            </div>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6" data-en="Individualized behavioural support based on identified needs and agreed goals." data-mr="निश्चित केलेली उद्दिष्टे आणि वैयक्तिक गरजेनुसार वर्तन सुधारणा व मार्गदर्शन.">
+                            Individualized behavioural support based on identified needs and agreed goals.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-3 border-t border-slate-100">
+                        <span class="text-[11px] font-semibold text-forest-700 group-hover:text-forest-900" data-en="Learn more & book" data-mr="माहिती व अपॉइंटमेंट">Learn more & book</span>
+                        <div class="arrow-circle w-8 h-8 rounded-full bg-forest-50 text-forest-700 flex items-center justify-center text-xs transition-all duration-300">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Inside the Practice / प्रॅक्टिसची झलक Section -->
+    <section id="inside" class="py-12 lg:py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="bg-[#eaf5f0] rounded-3xl p-6 sm:p-8 md:p-12 border border-mint-200/90 shadow-card">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+                    
+                    <!-- Left: Description and Values -->
+                    <div class="lg:col-span-5 space-y-4">
+                        
+                        <!-- Leaf & Marathi + English Header matching mockup -->
+                        <div>
+                            <div class="flex items-center gap-2.5 text-forest-700 mb-1">
+                                <i class="fa-solid fa-spa text-xl text-forest-600"></i>
+                                <h3 class="font-bold text-2xl text-forest-950 font-devanagari">
+                                    प्रॅक्टिसची झलक
+                                </h3>
+                            </div>
+                            <h4 class="font-serif text-2xl sm:text-3xl font-bold text-forest-900">
+                                Inside the Practice
+                            </h4>
+                        </div>
+
+                        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" 
+                           data-en="A glimpse into our consultation space, where children and individuals receive compassionate, professional and personalized support."
+                           data-mr="आमच्या समुपदेशन कक्षाची एक छोटी झलक, जिथे मुले आणि पालकांना संवेदनशील, व्यावसायिक आणि विश्वासार्ह मार्गदर्शन मिळते.">
+                            A glimpse into our consultation space, where children and individuals receive compassionate, professional and personalized support.
+                        </p>
+
+                        <!-- Highlight Green Card with Icon -->
+                        <div class="p-4 sm:p-5 rounded-2xl bg-white/90 border border-mint-200/90 flex items-start gap-4 shadow-xs">
+                            <div class="w-11 h-11 rounded-full bg-forest-100 text-forest-800 flex items-center justify-center text-lg flex-shrink-0">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs sm:text-sm font-bold text-forest-950" data-en="Every individual's journey matters." data-mr="प्रत्येक व्यक्तीचा प्रवास महत्त्वाचा आहे.">
+                                    Every individual's journey matters.
+                                </div>
+                                <div class="text-xs text-forest-700 font-devanagari font-medium mt-0.5">
+                                    प्रत्येक व्यक्तीचा प्रवास महत्त्वाचा आहे.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Practitioner Credentials Reminder -->
+                        <div class="pt-2 flex items-center gap-2.5 text-xs text-slate-500">
+                            <i class="fa-solid fa-shield-halved text-forest-700 text-sm"></i>
+                            <span data-en="Strictly Confidential & Ethical Clinical Environment" data-mr="पूर्णपणे गोपनीय आणि नैतिक वैद्यकीय वातावरण">
+                                Strictly Confidential & Ethical Clinical Environment
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: Actual Consultation Room Photo from Mockup -->
+                    <div class="lg:col-span-7">
+                        <div class="rounded-2xl overflow-hidden border-2 border-white shadow-card bg-white group">
+                            <img src="clinic-consultation.jpg" alt="Sonali Jadhav Consultation Session" class="w-full h-auto object-cover max-h-[380px] transition-transform duration-500 group-hover:scale-101">
+                            
+                            <!-- Caption Bar matching design -->
+                            <div class="bg-white py-3 px-4 text-center text-xs text-forest-900 font-medium border-t border-mint-100 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-camera text-forest-600 text-xs"></i>
+                                <span data-en="A welcoming space for consultation | समुपदेशनासाठी स्वागतार्ह वातावरण" 
+                                      data-mr="समुपदेशनासाठी स्वागतार्ह वातावरण | A welcoming space for consultation">
+                                    A welcoming space for consultation | समुपदेशनासाठी स्वागतार्ह वातावरण
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Ms. Sonali Jadhav Section -->
+    <section id="about" class="py-16 bg-white border-t border-sage-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-forest-50/60 rounded-3xl p-6 sm:p-10 border border-sage-200 shadow-soft">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-10 items-center">
+                    
+                    <div class="md:col-span-4 flex justify-center">
+                        <div class="w-52 h-52 sm:w-60 sm:h-60 rounded-3xl overflow-hidden border-4 border-white shadow-card">
+                            <img src="sonali-jadhav.jpg" alt="Sonali Jadhav" class="w-full h-full object-cover object-top">
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-8 space-y-4 text-left">
+                        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest-100 text-forest-800 text-xs font-semibold" data-en="About the Practitioner" data-mr="तज्ज्ञांविषयी माहिती">
+                            <i class="fa-solid fa-user-doctor text-forest-700"></i>
+                            <span>About the Practitioner</span>
+                        </div>
+
+                        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-forest-950">
+                            Sonali Jadhav
+                        </h3>
+
+                        <p class="text-sm font-semibold text-forest-700">
+                            MA Clinical Psychologist / Counsellor
+                        </p>
+
+                        <div class="text-xs sm:text-sm text-slate-600 space-y-2.5 leading-relaxed">
+                            <p data-en="This individual practice provides psychological assessment and support services for children and individuals. The assessment process and recommendations are guided by the presenting concerns, relevant developmental and educational history, and individual needs."
+                               data-mr="ही प्रॅक्टिस लहान मुले, किशोरवयीन आणि प्रौढ व्यक्तींसाठी व्यावसायिक मानसशास्त्रीय मूल्यमापन आणि समुपदेशन सेवा पुरवते. प्रत्येक तपासणी व शिफारसी व्यक्तीच्या समस्या, विकासात्मक पार्श्वभूमी व गरजांनुसार केल्या जातात.">
+                                This individual practice provides psychological assessment and support services for children and individuals. The assessment process and recommendations are guided by the presenting concerns, relevant developmental and educational history, and individual needs.
+                            </p>
+                        </div>
+
+                        <!-- Qualifications Badges -->
+                        <div class="pt-2 flex flex-wrap gap-2 text-xs">
+                            <span class="px-3 py-1.5 rounded-lg bg-white border border-sage-200 text-forest-900 font-semibold shadow-xs">
+                                🎓 MA Clinical Psychology
+                            </span>
+                            <span class="px-3 py-1.5 rounded-lg bg-white border border-sage-200 text-forest-900 font-semibold shadow-xs">
+                                📜 PGCCC (Child Counselling)
+                            </span>
+                            <span class="px-3 py-1.5 rounded-lg bg-white border border-sage-200 text-forest-900 font-semibold shadow-xs">
+                                🏥 MIMH Trained
+                            </span>
+                        </div>
+
+                        <div class="pt-3 flex items-center gap-3">
+                            <button onclick="openBookingWizard()" class="px-5 py-2.5 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-semibold text-xs shadow-xs transition-all">
+                                <span data-en="Consult with Sonali Jadhav" data-mr="सल्लामसलत सुरू करा">Consult with Sonali Jadhav</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-16 bg-white border-t border-sage-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <div class="flex items-center justify-center gap-4 text-forest-700 mb-2">
+                    <span class="w-8 h-[1px] bg-forest-400/60 inline-block"></span>
+                    <h2 class="font-serif text-2xl sm:text-3xl font-bold text-forest-950" data-en="Frequently Asked Questions" data-mr="वारंवार विचारले जाणारे प्रश्न">
+                        Frequently Asked Questions
+                    </h2>
+                    <span class="w-8 h-[1px] bg-forest-400/60 inline-block"></span>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-600" data-en="Helpful information regarding assessments, appointments, and consultations." data-mr="मूल्यमापन, अपॉइंटमेंट आणि समुपदेशनाविषयी महत्त्वाची माहिती.">
+                    Helpful information regarding assessments, appointments, and consultations.
+                </p>
+            </div>
+
+            <div class="space-y-3.5">
+                <!-- FAQ Item 1 -->
+                <div class="border border-sage-200 rounded-2xl p-4 sm:p-5 bg-sage-50/40">
+                    <button class="w-full text-left font-semibold text-sm sm:text-base text-forest-950 flex justify-between items-center" onclick="toggleFaq('faq1')">
+                        <span data-en="How are appointments booked?" data-mr="अपॉइंटमेंट कशी बुक करावी?">How are appointments booked?</span>
+                        <i id="faq-icon-faq1" class="fa-solid fa-chevron-down text-xs text-forest-600 transition-transform"></i>
+                    </button>
+                    <div id="faq1" class="hidden mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sage-200/60 pt-3"
+                         data-en="Appointments are scheduled on call or via WhatsApp (+91 9370201194). This ensures every individual or family receives dedicated, unhurried, and personalized attention without wait times."
+                         data-mr="अपॉइंटमेंट्स फोनद्वारे किंवा व्हॉट्सॲपवर (+91 9370201194) आधीच बुक केल्या जातात, ज्यामुळे प्रत्येक व्यक्तीला शांत व पुरेसा वेळ मिळतो.">
+                        Appointments are scheduled on call or via WhatsApp (+91 9370201194). This ensures every individual or family receives dedicated, unhurried, and personalized attention without wait times.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-sage-200 rounded-2xl p-4 sm:p-5 bg-sage-50/40">
+                    <button class="w-full text-left font-semibold text-sm sm:text-base text-forest-950 flex justify-between items-center" onclick="toggleFaq('faq2')">
+                        <span data-en="What should parents expect during a child or LD assessment?" data-mr="बाल किंवा अध्ययन अक्षमता चाचणी दरम्यान काय प्रक्रिया असते?">What should parents expect during a child or LD assessment?</span>
+                        <i id="faq-icon-faq2" class="fa-solid fa-chevron-down text-xs text-forest-600 transition-transform"></i>
+                    </button>
+                    <div id="faq2" class="hidden mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sage-200/60 pt-3"
+                         data-en="The assessment begins with a gentle conversation reviewing the child's developmental milestones and schooling history. Standardized age-appropriate tests and behavioral observations are then conducted in a warm, child-friendly environment."
+                         data-mr="चाचणीच्या सुरुवातीला मुलाच्या विकासात्मक आणि शालेय पार्श्वभूमीची चर्चा केली जाते. त्यानंतर मुलांसाठी अनुकूल अशा वातावरणात प्रमाणित चाचण्या घेतल्या जातात.">
+                        The assessment begins with a gentle conversation reviewing the child's developmental milestones and schooling history. Standardized age-appropriate tests and behavioral observations are then conducted in a warm, child-friendly environment.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-sage-200 rounded-2xl p-4 sm:p-5 bg-sage-50/40">
+                    <button class="w-full text-left font-semibold text-sm sm:text-base text-forest-950 flex justify-between items-center" onclick="toggleFaq('faq3')">
+                        <span data-en="Is my information kept confidential?" data-mr="माझी माहिती गोपनीय ठेवली जाते का?">Is my information kept confidential?</span>
+                        <i id="faq-icon-faq3" class="fa-solid fa-chevron-down text-xs text-forest-600 transition-transform"></i>
+                    </button>
+                    <div id="faq3" class="hidden mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sage-200/60 pt-3"
+                         data-en="Yes. All information shared during psychological assessment or counselling is handled with strict professional confidentiality in accordance with clinical psychology ethics and applicable law."
+                         data-mr="होय. समुपदेशन किंवा मूल्यमापनादरम्यान सामायिक केलेली सर्व माहिती क्लिनिकल सायकॉलॉजीच्या व्यावसायिक नियमांनुसार पूर्णपणे गोपनीय ठेवली जाते.">
+                        Yes. All information shared during psychological assessment or counselling is handled with strict professional confidentiality in accordance with clinical psychology ethics and applicable law.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-sage-200 rounded-2xl p-4 sm:p-5 bg-sage-50/40">
+                    <button class="w-full text-left font-semibold text-sm sm:text-base text-forest-950 flex justify-between items-center" onclick="toggleFaq('faq4')">
+                        <span data-en="What are the working hours and clinic location?" data-mr="क्लिनिकची वेळ आणि पत्ता काय आहे?">What are the working hours and clinic location?</span>
+                        <i id="faq-icon-faq4" class="fa-solid fa-chevron-down text-xs text-forest-600 transition-transform"></i>
+                    </button>
+                    <div id="faq4" class="hidden mt-3 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-sage-200/60 pt-3"
+                         data-en="Working hours are Monday through Saturday, 10:00 AM to 6:00 PM. The clinic is located at Chatrapati Shivaji Nagar, Maratha Section 32, Ulhasnagar 4, Maharashtra - 421004."
+                         data-mr="क्लिनिक सोमवार ते शनिवार सकाळी १०:०० ते संध्याकाळी ६:०० या वेळेत सुरू असते. पत्ता: छत्रपती शिवाजी नगर, मराठा सेक्शन ३२, उल्हासनगर ४, महाराष्ट्र - ४२१००४.">
+                        Working hours are Monday through Saturday, 10:00 AM to 6:00 PM. The clinic is located at Chatrapati Shivaji Nagar, Maratha Section 32, Ulhasnagar 4, Maharashtra - 421004.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Appointments Section (Matching Design 3-Cards Box) -->
+    <section id="contact" class="py-14 bg-white border-t border-sage-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- White/Mint Outer Container matching design -->
+            <div class="bg-[#f2f8f5] rounded-3xl p-6 sm:p-8 md:p-12 border border-mint-200/80 shadow-card">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10">
+                    
+                    <!-- Column 1: Contact & Appointments Details -->
+                    <div class="lg:col-span-5 space-y-4">
+                        <div class="flex items-center gap-2.5 text-forest-800 mb-3">
+                            <i class="fa-solid fa-address-book text-xl text-forest-700"></i>
+                            <h3 class="font-sans font-bold text-lg text-forest-950" data-en="Contact & Appointments" data-mr="संपर्क आणि अपॉइंटमेंट">
+                                Contact & Appointments
+                            </h3>
+                        </div>
+
+                        <div class="space-y-3.5 text-xs sm:text-sm text-slate-700">
+                            <!-- Phone -->
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-phone text-forest-700 mt-1 text-sm flex-shrink-0"></i>
+                                <div>
+                                    <a href="tel:9370201194" class="font-bold text-forest-950 hover:text-forest-700 transition-colors block text-base sm:text-lg">
+                                        9370201194
+                                    </a>
+                                    <span class="text-xs text-slate-500 font-normal" data-en="(Call / WhatsApp)" data-mr="(कॉल / व्हॉट्सॲप)">(Call / WhatsApp)</span>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-envelope text-forest-700 mt-1 text-sm flex-shrink-0"></i>
+                                <div>
+                                    <a href="mailto:jsonali338@gmail.com" class="font-semibold text-slate-800 hover:text-forest-700 transition-colors">
+                                        jsonali338@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Working Hours -->
+                            <div class="flex items-start gap-3">
+                                <i class="fa-regular fa-clock text-forest-700 mt-1 text-sm flex-shrink-0"></i>
+                                <div>
+                                    <div class="font-bold text-slate-900" data-en="Working Hours" data-mr="कामकाजाची वेळ">Working Hours</div>
+                                    <div class="text-xs text-slate-600" data-en="10:00 AM to 6:00 PM" data-mr="सकाळी १०:०० ते संध्याकाळी ६:००">10:00 AM to 6:00 PM</div>
+                                </div>
+                            </div>
+
+                            <!-- Appointments -->
+                            <div class="flex items-start gap-3">
+                                <i class="fa-regular fa-calendar-check text-forest-700 mt-1 text-sm flex-shrink-0"></i>
+                                <div>
+                                    <div class="font-bold text-slate-900" data-en="Appointments" data-mr="अपॉइंटमेंट">Appointments</div>
+                                    <div class="text-xs text-slate-600" data-en="On call" data-mr="फोनवर (On call)">On call</div>
+                                </div>
+                            </div>
+
+                            <!-- Full Address -->
+                            <div class="flex items-start gap-3 pt-1">
+                                <i class="fa-solid fa-location-dot text-forest-700 mt-1 text-sm flex-shrink-0"></i>
+                                <div>
+                                    <div class="font-bold text-slate-900" data-en="Full Address" data-mr="संपूर्ण पत्ता">Full Address</div>
+                                    <div class="text-xs text-slate-600 leading-relaxed mt-0.5" 
+                                         data-en="Chatrapati Shivaji Nagar<br>Maratha Section 32<br>Ulhasnagar 4, 421004<br>Maharashtra, India"
+                                         data-mr="छत्रपती शिवाजी नगर<br>मराठा सेक्शन ३२<br>उल्हासनगर ४, ४२१००४<br>महाराष्ट्र, भारत">
+                                        Chatrapati Shivaji Nagar<br>
+                                        Maratha Section 32<br>
+                                        Ulhasnagar 4, 421004<br>
+                                        Maharashtra, India
+                                    </div>
+                                    <button onclick="copyAddress()" id="copyAddressBtn" class="mt-2 text-[11px] font-semibold text-forest-700 hover:text-forest-900 flex items-center gap-1.5 transition-colors">
+                                        <i class="fa-regular fa-copy"></i>
+                                        <span id="copyAddressText" data-en="Copy Address" data-mr="पत्ता कॉपी करा">Copy Address</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Find Us on Google Maps -->
+                    <div class="lg:col-span-4 space-y-3 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-2 text-forest-800 mb-3">
+                                <i class="fa-solid fa-location-dot text-forest-700"></i>
+                                <h3 class="font-sans font-bold text-sm sm:text-base text-forest-950" data-en="Find Us on Google Maps" data-mr="गुगल मॅप्सवर शोधा">
+                                    Find Us on Google Maps
+                                </h3>
+                            </div>
+
+                            <!-- Map Image Tile -->
+                            <a href="https://maps.google.com/?q=Chatrapati+Shivaji+Nagar+maratha+section+32+ulhasnagar+4+421004" target="_blank" rel="noopener noreferrer" class="block rounded-xl overflow-hidden border border-slate-200/90 shadow-card hover:opacity-95 transition-all group">
+                                <img src="map-preview.jpg" alt="Clinic Location on Google Maps - Ulhasnagar 4" class="w-full h-auto object-cover group-hover:scale-102 transition-transform">
+                            </a>
+                        </div>
+
+                        <!-- Get Directions Button -->
+                        <div class="pt-2">
+                            <a href="https://maps.google.com/?q=Chatrapati+Shivaji+Nagar+maratha+section+32+ulhasnagar+4+421004" target="_blank" rel="noopener noreferrer" 
+                               class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-semibold text-xs transition-colors shadow-xs shimmer-btn">
+                                <span data-en="Get Directions" data-mr="नकाशावर दिशा पहा">Get Directions</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Quick Appointment & WhatsApp & Callout Note -->
+                    <div class="lg:col-span-3 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex items-center gap-2 text-forest-800 mb-1">
+                                <i class="fa-brands fa-whatsapp text-forest-700 text-lg"></i>
+                                <h3 class="font-sans font-bold text-sm sm:text-base text-forest-950" data-en="Quick Appointment?" data-mr="त्वरित अपॉइंटमेंट?">
+                                    Quick Appointment?
+                                </h3>
+                            </div>
+                            <p class="text-xs text-slate-600 mb-3" data-en="Chat with us on WhatsApp" data-mr="व्हॉट्सॲपवर संपर्क करा">
+                                Chat with us on WhatsApp
+                            </p>
+
+                            <!-- WhatsApp Button -->
+                            <a href="https://wa.me/919370201194?text=Hello%20Ms.%20Sonali%20Jadhav,%20I%20would%20like%20to%20enquire%20about%20booking%20an%20appointment." 
+                               target="_blank" rel="noopener noreferrer"
+                               class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-semibold text-xs transition-all shadow-xs shimmer-btn">
+                                <i class="fa-brands fa-whatsapp text-sm"></i>
+                                <span data-en="WhatsApp Us" data-mr="व्हॉट्सॲप मेसेज">WhatsApp Us</span>
+                            </a>
+                        </div>
+
+                        <!-- Delicate Handwritten note and doodle leaf matching mockup -->
+                        <div class="text-right pt-4 select-none pr-2">
+                            <div class="flex justify-end mb-1">
+                                <svg class="w-8 h-8 text-forest-700 opacity-60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 30C15 20 25 15 30 10C28 20 22 28 10 30Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                                    <path d="M15 25C20 20 25 18 28 12" stroke="currentColor" stroke-width="1.3"/>
+                                </svg>
+                            </div>
+                            <div class="callout-script text-2xl font-bold text-forest-900 tracking-wide">
+                                We're here to help ♡
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest-950 text-white text-xs pt-12 pb-8 border-t border-forest-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            
+            <!-- Top Footer Row -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-forest-850">
+                
+                <!-- Footer Brand Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-full border border-forest-700 flex items-center justify-center text-white bg-forest-900">
+                        <i class="fa-solid fa-brain text-base text-mint-300"></i>
+                    </div>
+                    <div>
+                        <div class="font-serif font-bold text-base tracking-tight text-white" data-en="Sonali Jadhav" data-mr="सोनाली जाधव">
+                            Sonali Jadhav
+                        </div>
+                        <div class="text-[10px] text-forest-300" data-en="Individual Clinical Psychology Practice" data-mr="व्यक्तिगत क्लिनिकल सायकॉलॉजी प्रॅक्टिस">
+                            Individual Clinical Psychology Practice
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Nav Links -->
+                <div class="flex flex-wrap items-center justify-center gap-5 sm:gap-7 text-xs text-forest-200">
+                    <a href="#home" class="hover:text-white transition-colors" data-en="Home" data-mr="होम">Home</a>
+                    <a href="#about" class="hover:text-white transition-colors" data-en="About" data-mr="परिचय">About</a>
+                    <a href="#services" class="hover:text-white transition-colors" data-en="Services" data-mr="सेवा">Services</a>
+                    <a href="#inside" class="hover:text-white transition-colors" data-en="Inside the Practice" data-mr="प्रॅक्टिसची झलक">Inside the Practice</a>
+                    <a href="#faqs" class="hover:text-white transition-colors" data-en="FAQs" data-mr="प्रश्नोत्तरे">FAQs</a>
+                    <a href="#contact" class="hover:text-white transition-colors" data-en="Contact" data-mr="संपर्क">Contact</a>
+                </div>
+
+                <!-- Social Icons & Footer Language Toggle -->
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2.5 text-forest-200">
+                        <a href="https://wa.me/919370201194" target="_blank" class="w-8 h-8 rounded-full bg-forest-850 hover:bg-forest-700 flex items-center justify-center text-xs transition-colors" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                        </a>
+                        <a href="tel:9370201194" class="w-8 h-8 rounded-full bg-forest-850 hover:bg-forest-700 flex items-center justify-center text-xs transition-colors" aria-label="Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <a href="mailto:jsonali338@gmail.com" class="w-8 h-8 rounded-full bg-forest-850 hover:bg-forest-700 flex items-center justify-center text-xs transition-colors" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex items-center bg-forest-900 border border-forest-800 rounded-full p-0.5 text-[11px] font-semibold">
+                        <button onclick="setLanguage('en')" id="footer-lang-en" class="px-2.5 py-0.5 rounded-full transition-all footer-lang-active">
+                            EN
+                        </button>
+                        <button onclick="setLanguage('mr')" id="footer-lang-mr" class="px-2.5 py-0.5 rounded-full transition-all footer-lang-inactive">
+                            मराठी
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Disclaimer & Copyright Row -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-forest-300 text-center md:text-left">
+                <p>
+                    &copy; <span id="currentYear"></span> Sonali Jadhav. All rights reserved.
+                </p>
+                <p class="max-w-xl text-[10px] text-forest-300/80 leading-relaxed" 
+                   data-en="This website provides general information about the practice and does not replace an individual assessment or professional consultation."
+                   data-mr="ही वेबसाइट केवळ सामान्य माहितीसाठी असून ती वैयक्तिक मानसशास्त्रीय तपासणी किंवा व्यावसायिक सल्लामसलतीचा पर्याय नाही.">
+                    This website provides general information about the practice and does not replace an individual assessment or professional consultation.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button for Quick Access -->
+    <a href="https://wa.me/919370201194?text=Hello%20Ms.%20Sonali%20Jadhav,%20I%20would%20like%20to%20enquire%20about%20an%20appointment." 
+       target="_blank" rel="noopener noreferrer" 
+       aria-label="WhatsApp Us"
+       class="fixed bottom-6 right-6 z-40 w-14 h-14 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full flex items-center justify-center text-2xl shadow-floating hover:scale-108 active:scale-95 transition-all p-3.5 fab-pulse"
+       title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Pro Level Interactive Booking Modal Wizard -->
+    <div id="bookingModal" class="fixed inset-0 z-50 hidden bg-forest-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-sage-100 animate-in fade-in zoom-in-95 duration-200">
+            
+            <button onclick="closeBookingWizard()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-800 text-lg w-8 h-8 rounded-full hover:bg-slate-100 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-11 h-11 rounded-2xl bg-forest-100 text-forest-800 flex items-center justify-center text-xl flex-shrink-0">
+                    <i class="fa-regular fa-calendar-check"></i>
+                </div>
+                <div>
+                    <h3 class="font-serif font-bold text-xl text-forest-950" data-en="Schedule an Appointment" data-mr="अपॉइंटमेंट निश्चित करा">Schedule an Appointment</h3>
+                    <p class="text-xs text-slate-500" data-en="Personalized Consultation with Sonali Jadhav" data-mr="सोनाली जाधव यांच्यासोबत सल्लामसलत">Personalized Consultation with Sonali Jadhav</p>
+                </div>
+            </div>
+
+            <form id="wizardForm" onsubmit="handleWizardSubmit(event)" class="space-y-4 pt-1">
+                <div>
+                    <label class="block text-xs font-bold text-forest-950 mb-1" data-en="Your Full Name *" data-mr="आपले नाव *">Your Full Name *</label>
+                    <input type="text" id="wName" required placeholder="e.g. Ramesh Patil" 
+                           class="w-full px-3.5 py-2.5 rounded-xl border border-sage-300 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-forest-600 bg-sage-50/30">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold text-forest-950 mb-1" data-en="Phone / WhatsApp *" data-mr="फोन / व्हॉट्सॲप *">Phone / WhatsApp *</label>
+                        <input type="tel" id="wPhone" required placeholder="e.g. 9876543210" 
+                               class="w-full px-3.5 py-2.5 rounded-xl border border-sage-300 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-forest-600 bg-sage-50/30">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-forest-950 mb-1" data-en="Service Needed *" data-mr="आवश्यक सेवा *">Service Needed *</label>
+                        <select id="wService" class="w-full px-3.5 py-2.5 rounded-xl border border-sage-300 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-forest-600 bg-sage-50/30">
+                            <option value="Child Assessment">Child Assessment</option>
+                            <option value="Psychological Assessment">Psychological Assessment</option>
+                            <option value="Learning Disability Assessment">Learning Disability Assessment</option>
+                            <option value="ADHD & Autism Assessment">ADHD & Autism Assessment</option>
+                            <option value="Counselling">Psychological Counselling</option>
+                            <option value="Behaviour Therapy">Behaviour Therapy</option>
+                            <option value="General Guidance">General Guidance / Consultation</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-forest-950 mb-1" data-en="Any Brief Note or Child's Age (Optional)" data-mr="काही माहिती किंवा वय (पर्यायी)">Any Brief Note or Child's Age (Optional)</label>
+                    <textarea id="wNotes" rows="2" placeholder="Tell us briefly about the presenting concerns..."
+                              class="w-full px-3.5 py-2.5 rounded-xl border border-sage-300 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-forest-600 bg-sage-50/30"></textarea>
+                </div>
+
+                <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+                    <button type="submit" class="flex-1 py-3 px-5 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-sm transition-all shimmer-btn">
+                        <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                        <span data-en="Send Request via WhatsApp" data-mr="व्हॉट्सॲपवर पाठवा">Send Request via WhatsApp</span>
+                    </button>
+                    <a href="tel:9370201194" class="py-3 px-4 rounded-xl bg-forest-50 hover:bg-forest-100 text-forest-900 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors border border-forest-200">
+                        <i class="fa-solid fa-phone text-forest-700"></i>
+                        <span>Call 9370201194</span>
+                    </a>
+                </div>
+
+                <p class="text-[10px] text-slate-400 text-center pt-1">
+                    <i class="fa-solid fa-lock text-emerald-600 mr-1"></i>
+                    <span data-en="Your privacy is 100% safeguarded under professional clinical ethics." data-mr="आपली माहिती वैद्यकीय नियमांनुसार पूर्णपणे सुरक्षित व गोपनीय राहील.">Your privacy is 100% safeguarded under professional clinical ethics.</span>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Service Detail Quick Modal -->
+    <div id="serviceModal" class="fixed inset-0 z-50 hidden bg-forest-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-sage-100 animate-in fade-in zoom-in-95 duration-200">
+            <button onclick="closeServiceModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-800 text-lg w-8 h-8 rounded-full hover:bg-slate-100 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="serviceModalContent" class="space-y-4">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript logic -->
+    <script>
+        // Set dynamic year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileDrawer = document.getElementById('mobileDrawer');
+        const mobileMenuIcon = document.getElementById('mobileMenuIcon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileDrawer.classList.contains('hidden');
+            if (isHidden) {
+                mobileDrawer.classList.remove('hidden');
+                mobileMenuIcon.classList.remove('fa-bars');
+                mobileMenuIcon.classList.add('fa-xmark');
+            } else {
+                mobileDrawer.classList.add('hidden');
+                mobileMenuIcon.classList.remove('fa-xmark');
+                mobileMenuIcon.classList.add('fa-bars');
+            }
+        });
+
+        mobileDrawer.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileDrawer.classList.add('hidden');
+                mobileMenuIcon.classList.remove('fa-xmark');
+                mobileMenuIcon.classList.add('fa-bars');
+            });
+        });
+
+        // FAQ Toggle
+        function toggleFaq(id) {
+            const el = document.getElementById(id);
+            const icon = document.getElementById('faq-icon-' + id);
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                el.classList.add('hidden');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+
+        // Copy Address functionality
+        function copyAddress() {
+            const fullAddress = "Chatrapati Shivaji Nagar, Maratha Section 32, Ulhasnagar 4, 421004, Maharashtra, India";
+            navigator.clipboard.writeText(fullAddress).then(() => {
+                const textEl = document.getElementById('copyAddressText');
+                const prev = textEl.textContent;
+                textEl.textContent = currentLang === 'mr' ? 'पत्ता कॉपी केला! ✓' : 'Address Copied! ✓';
+                setTimeout(() => {
+                    textEl.textContent = prev;
+                }, 2000);
+            });
+        }
+
+        // Booking Modal
+        function openBookingWizard(defaultService = '') {
+            if (defaultService) {
+                const select = document.getElementById('wService');
+                if (select) select.value = defaultService;
+            }
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBookingWizard() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        // Service Modal Detailed Data
+        const serviceData = {
+            psychological: {
+                title_en: "Psychological Assessment",
+                title_mr: "मानसशास्त्रीय मूल्यमापन",
+                icon: "fa-brain",
+                color: "#208b5e",
+                bg: "#e8f7ee",
+                desc_en: "Comprehensive psychological evaluations to understand cognitive, emotional, behavioral and functional concerns according to referral questions and authorized clinical scope.",
+                desc_mr: "संज्ञानात्मक, भावनिक, वर्तनात्मक आणि कार्यात्मक अडचणींचे सखोल वैज्ञानिक विश्लेषण आणि मार्गदर्शन.",
+                points_en: [
+                    "Intellectual & Cognitive Functioning Evaluation",
+                    "Personality Dynamics & Emotional Functioning",
+                    "Standardized Test Battery & Detailed Clinical Findings"
+                ],
+                points_mr: [
+                    "बौद्धिक व संज्ञानात्मक कार्यक्षमतेचे मूल्यमापन",
+                    "भावनिक व व्यक्तिमत्त्व पैलूंचे विश्लेषण",
+                    "प्रमाणित चाचण्या व सविस्तर मार्गदर्शन अहवाल"
+                ]
+            },
+            child: {
+                title_en: "Child Assessment",
+                title_mr: "बाल मूल्यमापन",
+                icon: "fa-face-smile",
+                color: "#6754de",
+                bg: "#f1effd",
+                desc_en: "Specialized assessment of developmental, behavioural, emotional and learning-related concerns in children, conducted in a non-intimidating, supportive atmosphere.",
+                desc_mr: "लहान मुलांच्या विकासात्मक, वर्तनात्मक, भावनिक आणि अभ्यासाशी संबंधित अडचणींचे मुलांसाठी अनुकूल वातावरणात मूल्यमापन.",
+                points_en: [
+                    "Developmental Milestones & Cognitive Readiness",
+                    "Emotional & Behavioral Regulation Support",
+                    "Practical Guidance for Parents & School Teachers"
+                ],
+                points_mr: [
+                    "विकासात्मक टप्पे व बौद्धिक पूर्वतयारी",
+                    "भावनिक व वर्तनात्मक नियंत्रणासाठी सहाय्य",
+                    "पालक आणि शिक्षकांसाठी कृतीशील मार्गदर्शन"
+                ]
+            },
+            ld: {
+                title_en: "Learning Disability Assessment",
+                title_mr: "अध्ययन अक्षमता मूल्यमापन",
+                icon: "fa-book-open",
+                color: "#de742e",
+                bg: "#fef0e6",
+                desc_en: "Thorough assessment of learning-related difficulties in reading (Dyslexia), writing (Dysgraphia), and mathematics (Dyscalculia) using standard clinical procedures.",
+                desc_mr: "वाचन, लेखन किंवा गणित यांसारख्या शैक्षणिक अडचणींचे प्रमाणित चाचण्यांद्वारे अचूक मूल्यमापन.",
+                points_en: [
+                    "Reading, Spelling & Writing Difficulties",
+                    "Processing Speed & Working Memory Assessment",
+                    "School Accommodations & Remedial Recommendations"
+                ],
+                points_mr: [
+                    "वाचन, शुद्धलेखन व लेखन अडचणींचे विश्लेषण",
+                    "माहिती प्रक्रिया गती व स्मरणशक्ती चाचण्या",
+                    "शालेय सवलती व शैक्षणिक सुधारणा शिफारसी"
+                ]
+            },
+            adhd_autism: {
+                title_en: "ADHD and Autism Assessment",
+                title_mr: "एडीएचडी आणि ऑटिझम मूल्यमापन",
+                icon: "fa-puzzle-piece",
+                color: "#2881dc",
+                bg: "#e9f4ff",
+                desc_en: "Screening and clinical assessment for concerns related to attention span, activity levels, impulsivity, social communication, and sensory functioning.",
+                desc_mr: "एकाग्रतेचा अभाव, अतिचंचलता, सामाजिक संवाद आणि संवेदी गरजांचे व्यावसायिक मूल्यमापन.",
+                points_en: [
+                    "Attention Span & Hyperactivity Profiling",
+                    "Social Interaction & Sensory Patterns",
+                    "Individualized Growth & Support Strategies"
+                ],
+                points_mr: [
+                    "एकाग्रता आणि अतिसक्रियतेचे सखोल प्रोफाइलिंग",
+                    "सामाजिक संवाद व संवेदी वर्तनाची तपासणी",
+                    "वैयक्तिक विकासासाठी आवश्यक योजना व मार्गदर्शन"
+                ]
+            },
+            counselling: {
+                title_en: "Counselling",
+                title_mr: "समुपदेशन",
+                icon: "fa-user-group",
+                color: "#d93b6e",
+                bg: "#feeef3",
+                desc_en: "Psychological support for emotional distress, stress, anxiety, family adjustments, and life transitions in a warm, confidential, and empathetic setting.",
+                desc_mr: "भावनिक ताणतणाव, चिंता, नातेसंबंध आणि जीवनातील आव्हानांसाठी अत्यंत सुरक्षित व गोपनीय वातावरणात समुपदेशन.",
+                points_en: [
+                    "Stress, Anxiety & Emotional Strain Relief",
+                    "Healthy Coping Mechanisms & Resilience",
+                    "Safe, Non-judgmental Space to Express"
+                ],
+                points_mr: [
+                    "तणाव व चिंता यावर मात करण्यासाठी सहाय्य",
+                    "सकारात्मक विचारसरणी व मानसिक कणखरता",
+                    "मोकळेपणाने व्यक्त होण्यासाठी सुरक्षित व्यासपीठ"
+                ]
+            },
+            behaviour: {
+                title_en: "Behaviour Therapy",
+                title_mr: "वर्तन उपचार",
+                icon: "fa-bullseye",
+                color: "#1b9a70",
+                bg: "#e8f8f2",
+                desc_en: "Individualized behavioural support and intervention strategies based on systematic assessment, tailored positive reinforcement, and agreed progress goals.",
+                desc_mr: "निश्चित उद्दिष्टे, सकारात्मक प्रोत्साहन आणि वैयक्तिक गरजांनुसार वर्तन सुधारणा व थेरपी.",
+                points_en: [
+                    "Targeted Behavior Modification Protocols",
+                    "Positive Reinforcement & Home Routine Alignment",
+                    "Continuous Progress Tracking & Family Collaboration"
+                ],
+                points_mr: [
+                    "नियोजित वर्तन सुधारणा पद्धती",
+                    "सकारात्मक प्रोत्साहन व घरातील दिनचर्येचे नियोजन",
+                    "सातत्यपूर्ण प्रगतीचा आढावा व पालक सहभाग"
+                ]
+            }
+        };
+
+        function openServiceDetail(serviceKey) {
+            const data = serviceData[serviceKey];
+            if (!data) return;
+
+            const isMr = currentLang === 'mr';
+            const title = isMr ? data.title_mr : data.title_en;
+            const desc = isMr ? data.desc_mr : data.desc_en;
+            const points = isMr ? data.points_mr : data.points_en;
+
+            const modalContent = document.getElementById('serviceModalContent');
+            modalContent.innerHTML = `
+                <div class="flex items-center gap-3.5 mb-2">
+                    <div class="w-13 h-13 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style="background-color: ${data.bg}; color: ${data.color}">
+                        <i class="fa-solid ${data.icon}"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-serif font-bold text-xl text-forest-950">${title}</h3>
+                        <p class="text-[11px] font-semibold text-forest-700 uppercase tracking-wider">${isMr ? 'वैयक्तिक क्लिनिकल सेवा' : 'Individual Clinical Service'}</p>
+                    </div>
+                </div>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">${desc}</p>
+                <div class="space-y-2 py-2">
+                    ${points.map(p => `
+                        <div class="flex items-center gap-2.5 text-xs text-slate-700">
+                            <i class="fa-solid fa-check text-emerald-600 text-[11px]"></i>
+                            <span>${p}</span>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="pt-3 flex gap-2">
+                    <button onclick="closeServiceModal(); openBookingWizard('${data.title_en}');" class="flex-1 py-3 px-4 rounded-xl bg-forest-850 hover:bg-forest-900 text-white font-bold text-xs transition-all shimmer-btn">
+                        ${isMr ? 'या सेवेसाठी अपॉइंटमेंट घ्या' : 'Book for this Service'}
+                    </button>
+                    <a href="tel:9370201194" class="py-3 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs flex items-center justify-center">
+                        <i class="fa-solid fa-phone text-forest-700"></i>
+                    </a>
+                </div>
+            `;
+
+            document.getElementById('serviceModal').classList.remove('hidden');
+        }
+
+        function closeServiceModal() {
+            document.getElementById('serviceModal').classList.add('hidden');
+        }
+
+        // Close modals on Escape key or backdrop click
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeBookingWizard();
+                closeServiceModal();
+            }
+        });
+        document.getElementById('bookingModal').addEventListener('click', (e) => {
+            if (e.target.id === 'bookingModal') closeBookingWizard();
+        });
+        document.getElementById('serviceModal').addEventListener('click', (e) => {
+            if (e.target.id === 'serviceModal') closeServiceModal();
+        });
+
+        // Form Submit Handler
+        function handleWizardSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('wName').value.trim();
+            const phone = document.getElementById('wPhone').value.trim();
+            const service = document.getElementById('wService').value;
+            const notes = document.getElementById('wNotes').value.trim();
+
+            const message = `Hello Ms. Sonali Jadhav,%0A%0AI would like to schedule an appointment consultation.%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Contact:* ${encodeURIComponent(phone)}%0A*Service:* ${encodeURIComponent(service)}${notes ? `%0A*Notes/Age:* ${encodeURIComponent(notes)}` : ''}%0A%0APlease let me know available slots. Thank you!`;
+
+            const whatsappUrl = `https://wa.me/919370201194?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+            closeBookingWizard();
+        }
+
+        // Bilingual Toggle (English <-> Marathi)
+        let currentLang = 'en';
+
+        function setLanguage(lang) {
+            currentLang = lang;
+
+            const btnEn = document.getElementById('lang-btn-en');
+            const btnMr = document.getElementById('lang-btn-mr');
+            const fBtnEn = document.getElementById('footer-lang-en');
+            const fBtnMr = document.getElementById('footer-lang-mr');
+
+            if (lang === 'mr') {
+                btnEn.className = 'px-3 py-1 rounded-full transition-all lang-inactive';
+                btnMr.className = 'px-3 py-1 rounded-full transition-all lang-active';
+                fBtnEn.className = 'px-2.5 py-0.5 rounded-full transition-all footer-lang-inactive';
+                fBtnMr.className = 'px-2.5 py-0.5 rounded-full transition-all footer-lang-active';
+            } else {
+                btnEn.className = 'px-3 py-1 rounded-full transition-all lang-active';
+                btnMr.className = 'px-3 py-1 rounded-full transition-all lang-inactive';
+                fBtnEn.className = 'px-2.5 py-0.5 rounded-full transition-all footer-lang-active';
+                fBtnMr.className = 'px-2.5 py-0.5 rounded-full transition-all footer-lang-inactive';
+            }
+
+            document.querySelectorAll('[data-en]').forEach(el => {
+                const text = (lang === 'mr' && el.getAttribute('data-mr')) ? el.getAttribute('data-mr') : el.getAttribute('data-en');
+                el.innerHTML = text;
+            });
+        }
+    </script>
+</body>
+</html>
